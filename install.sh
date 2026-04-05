@@ -7,6 +7,10 @@ echo "           Bootstrap Script             "
 echo "========================================"
 echo ""
 
+#!/bin/bash
+# Bootstrap a new machine:
+# curl -fLo ~/install.sh https://raw.githubusercontent.com/msgitb/dotfiles/main/install.sh && chmod +x ~/install.sh && ./install.sh
+
 # ── Variables ────────────────────────────────
 GITHUB_USERNAME="msgitb"
 DOTFILES_REPO="git@github.com:$GITHUB_USERNAME/dotfiles.git"
