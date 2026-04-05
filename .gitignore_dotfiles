@@ -1,0 +1,4 @@
+.config/Code/User/profiles/*/globalStorage/
+.config/Code/User/workspaceStorage/
+.config/Code/User/logs/
+.config/Code/User/crashDumps/
