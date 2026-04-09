@@ -53,6 +53,10 @@ echo "deb [arch=amd64 signed-by=/etc/apt/keyrings/gierens.gpg] http://deb.gieren
 sudo chmod 644 /etc/apt/keyrings/gierens.gpg /etc/apt/sources.list.d/gierens.list
 sudo apt update && sudo apt install -y eza
 
+# ── bat symlink ───────────────────────────────
+mkdir -p ~/.local/bin
+ln -sf /usr/bin/batcat ~/.local/bin/bat
+
 # ── Kitty ─────────────────────────────────────
 echo ">>> [3/12] Installing Kitty..."
 curl -L https://sw.kovidgoyal.net/kitty/installer.sh | sh /dev/stdin
