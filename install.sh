@@ -37,7 +37,6 @@ sudo apt update && sudo apt install -y \
     uuid-dev \
     ripgrep \
     fd-find \
-    lazygit \
     hstr \
     bat \
     gpg \
