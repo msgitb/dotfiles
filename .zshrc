@@ -88,3 +88,4 @@ export GITHUB_USERNAME="msgitb"
 
 # Starship prompt (must be last)
 eval "$(starship init zsh)"
+export PATH="$HOME/.local/bin:$PATH"
